@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9921B36827BFBE280067C2AC /* Hack4rHaberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921B36727BFBE280067C2AC /* Hack4rHaberApp.swift */; };
+		9921B36A27BFBE280067C2AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921B36927BFBE280067C2AC /* ContentView.swift */; };
+		9921B36C27BFBE290067C2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9921B36B27BFBE290067C2AC /* Assets.xcassets */; };
+		9921B36F27BFBE290067C2AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9921B36E27BFBE290067C2AC /* Preview Assets.xcassets */; };
+		9921B37927BFBE2A0067C2AC /* Hack4rHaberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921B37827BFBE2A0067C2AC /* Hack4rHaberTests.swift */; };
+		9921B38327BFBE2A0067C2AC /* Hack4rHaberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921B38227BFBE2A0067C2AC /* Hack4rHaberUITests.swift */; };
+		9921B38527BFBE2A0067C2AC /* Hack4rHaberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9921B38427BFBE2A0067C2AC /* Hack4rHaberUITestsLaunchTests.swift */; };
+		99BAF8A727C0074F005B318B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF8A627C0074F005B318B /* NetworkManager.swift */; };
+		99BAF8A927C008BC005B318B /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF8A827C008BC005B318B /* PostData.swift */; };
+		99BAF8AC27C01088005B318B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF8AB27C01088005B318B /* DetailView.swift */; };
+		99BAF8AE27C014FB005B318B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF8AD27C014FB005B318B /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9921B37527BFBE2A0067C2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9921B35C27BFBE280067C2AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9921B36327BFBE280067C2AC;
+			remoteInfo = Hack4rHaber;
+		};
+		9921B37F27BFBE2A0067C2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9921B35C27BFBE280067C2AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9921B36327BFBE280067C2AC;
+			remoteInfo = Hack4rHaber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9921B36427BFBE280067C2AC /* Hack4rHaber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hack4rHaber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9921B36727BFBE280067C2AC /* Hack4rHaberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack4rHaberApp.swift; sourceTree = "<group>"; };
+		9921B36927BFBE280067C2AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9921B36B27BFBE290067C2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9921B36E27BFBE290067C2AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9921B37427BFBE2A0067C2AC /* Hack4rHaberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hack4rHaberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9921B37827BFBE2A0067C2AC /* Hack4rHaberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack4rHaberTests.swift; sourceTree = "<group>"; };
+		9921B37E27BFBE2A0067C2AC /* Hack4rHaberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hack4rHaberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9921B38227BFBE2A0067C2AC /* Hack4rHaberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack4rHaberUITests.swift; sourceTree = "<group>"; };
+		9921B38427BFBE2A0067C2AC /* Hack4rHaberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack4rHaberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99BAF8A627C0074F005B318B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		99BAF8A827C008BC005B318B /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		99BAF8AB27C01088005B318B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		99BAF8AD27C014FB005B318B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9921B36127BFBE280067C2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9921B37127BFBE2A0067C2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9921B37B27BFBE2A0067C2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9921B35B27BFBE280067C2AC = {
+			isa = PBXGroup;
+			children = (
+				9921B36627BFBE280067C2AC /* Hack4rHaber */,
+				9921B37727BFBE2A0067C2AC /* Hack4rHaberTests */,
+				9921B38127BFBE2A0067C2AC /* Hack4rHaberUITests */,
+				9921B36527BFBE280067C2AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9921B36527BFBE280067C2AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9921B36427BFBE280067C2AC /* Hack4rHaber.app */,
+				9921B37427BFBE2A0067C2AC /* Hack4rHaberTests.xctest */,
+				9921B37E27BFBE2A0067C2AC /* Hack4rHaberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9921B36627BFBE280067C2AC /* Hack4rHaber */ = {
+			isa = PBXGroup;
+			children = (
+				99BAF8A527C0072F005B318B /* Models */,
+				9921B36727BFBE280067C2AC /* Hack4rHaberApp.swift */,
+				99BAF8AA27C01069005B318B /* Views */,
+				9921B36B27BFBE290067C2AC /* Assets.xcassets */,
+				9921B36D27BFBE290067C2AC /* Preview Content */,
+			);
+			path = Hack4rHaber;
+			sourceTree = "<group>";
+		};
+		9921B36D27BFBE290067C2AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9921B36E27BFBE290067C2AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9921B37727BFBE2A0067C2AC /* Hack4rHaberTests */ = {
+			isa = PBXGroup;
+			children = (
+				9921B37827BFBE2A0067C2AC /* Hack4rHaberTests.swift */,
+			);
+			path = Hack4rHaberTests;
+			sourceTree = "<group>";
+		};
+		9921B38127BFBE2A0067C2AC /* Hack4rHaberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9921B38227BFBE2A0067C2AC /* Hack4rHaberUITests.swift */,
+				9921B38427BFBE2A0067C2AC /* Hack4rHaberUITestsLaunchTests.swift */,
+			);
+			path = Hack4rHaberUITests;
+			sourceTree = "<group>";
+		};
+		99BAF8A527C0072F005B318B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99BAF8A627C0074F005B318B /* NetworkManager.swift */,
+				99BAF8A827C008BC005B318B /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99BAF8AA27C01069005B318B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9921B36927BFBE280067C2AC /* ContentView.swift */,
+				99BAF8AB27C01088005B318B /* DetailView.swift */,
+				99BAF8AD27C014FB005B318B /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9921B36327BFBE280067C2AC /* Hack4rHaber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9921B38827BFBE2A0067C2AC /* Build configuration list for PBXNativeTarget "Hack4rHaber" */;
+			buildPhases = (
+				9921B36027BFBE280067C2AC /* Sources */,
+				9921B36127BFBE280067C2AC /* Frameworks */,
+				9921B36227BFBE280067C2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hack4rHaber;
+			productName = Hack4rHaber;
+			productReference = 9921B36427BFBE280067C2AC /* Hack4rHaber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9921B37327BFBE2A0067C2AC /* Hack4rHaberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9921B38B27BFBE2A0067C2AC /* Build configuration list for PBXNativeTarget "Hack4rHaberTests" */;
+			buildPhases = (
+				9921B37027BFBE2A0067C2AC /* Sources */,
+				9921B37127BFBE2A0067C2AC /* Frameworks */,
+				9921B37227BFBE2A0067C2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9921B37627BFBE2A0067C2AC /* PBXTargetDependency */,
+			);
+			name = Hack4rHaberTests;
+			productName = Hack4rHaberTests;
+			productReference = 9921B37427BFBE2A0067C2AC /* Hack4rHaberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9921B37D27BFBE2A0067C2AC /* Hack4rHaberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9921B38E27BFBE2A0067C2AC /* Build configuration list for PBXNativeTarget "Hack4rHaberUITests" */;
+			buildPhases = (
+				9921B37A27BFBE2A0067C2AC /* Sources */,
+				9921B37B27BFBE2A0067C2AC /* Frameworks */,
+				9921B37C27BFBE2A0067C2AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9921B38027BFBE2A0067C2AC /* PBXTargetDependency */,
+			);
+			name = Hack4rHaberUITests;
+			productName = Hack4rHaberUITests;
+			productReference = 9921B37E27BFBE2A0067C2AC /* Hack4rHaberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9921B35C27BFBE280067C2AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9921B36327BFBE280067C2AC = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9921B37327BFBE2A0067C2AC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9921B36327BFBE280067C2AC;
+					};
+					9921B37D27BFBE2A0067C2AC = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9921B36327BFBE280067C2AC;
+					};
+				};
+			};
+			buildConfigurationList = 9921B35F27BFBE280067C2AC /* Build configuration list for PBXProject "Hack4rHaber" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9921B35B27BFBE280067C2AC;
+			productRefGroup = 9921B36527BFBE280067C2AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9921B36327BFBE280067C2AC /* Hack4rHaber */,
+				9921B37327BFBE2A0067C2AC /* Hack4rHaberTests */,
+				9921B37D27BFBE2A0067C2AC /* Hack4rHaberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9921B36227BFBE280067C2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9921B36F27BFBE290067C2AC /* Preview Assets.xcassets in Resources */,
+				9921B36C27BFBE290067C2AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9921B37227BFBE2A0067C2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9921B37C27BFBE2A0067C2AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9921B36027BFBE280067C2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BAF8A727C0074F005B318B /* NetworkManager.swift in Sources */,
+				99BAF8A927C008BC005B318B /* PostData.swift in Sources */,
+				9921B36A27BFBE280067C2AC /* ContentView.swift in Sources */,
+				99BAF8AE27C014FB005B318B /* WebView.swift in Sources */,
+				99BAF8AC27C01088005B318B /* DetailView.swift in Sources */,
+				9921B36827BFBE280067C2AC /* Hack4rHaberApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9921B37027BFBE2A0067C2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9921B37927BFBE2A0067C2AC /* Hack4rHaberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9921B37A27BFBE2A0067C2AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9921B38527BFBE2A0067C2AC /* Hack4rHaberUITestsLaunchTests.swift in Sources */,
+				9921B38327BFBE2A0067C2AC /* Hack4rHaberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9921B37627BFBE2A0067C2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9921B36327BFBE280067C2AC /* Hack4rHaber */;
+			targetProxy = 9921B37527BFBE2A0067C2AC /* PBXContainerItemProxy */;
+		};
+		9921B38027BFBE2A0067C2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9921B36327BFBE280067C2AC /* Hack4rHaber */;
+			targetProxy = 9921B37F27BFBE2A0067C2AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9921B38627BFBE2A0067C2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9921B38727BFBE2A0067C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9921B38927BFBE2A0067C2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hack4rHaber/Preview Content\"";
+				DEVELOPMENT_TEAM = AWNHW9BPZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amg.Hack4rHaber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9921B38A27BFBE2A0067C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hack4rHaber/Preview Content\"";
+				DEVELOPMENT_TEAM = AWNHW9BPZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amg.Hack4rHaber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9921B38C27BFBE2A0067C2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWNHW9BPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amg.Hack4rHaberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack4rHaber.app/Hack4rHaber";
+			};
+			name = Debug;
+		};
+		9921B38D27BFBE2A0067C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWNHW9BPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amg.Hack4rHaberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack4rHaber.app/Hack4rHaber";
+			};
+			name = Release;
+		};
+		9921B38F27BFBE2A0067C2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWNHW9BPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amg.Hack4rHaberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hack4rHaber;
+			};
+			name = Debug;
+		};
+		9921B39027BFBE2A0067C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AWNHW9BPZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amg.Hack4rHaberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hack4rHaber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9921B35F27BFBE280067C2AC /* Build configuration list for PBXProject "Hack4rHaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9921B38627BFBE2A0067C2AC /* Debug */,
+				9921B38727BFBE2A0067C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9921B38827BFBE2A0067C2AC /* Build configuration list for PBXNativeTarget "Hack4rHaber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9921B38927BFBE2A0067C2AC /* Debug */,
+				9921B38A27BFBE2A0067C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9921B38B27BFBE2A0067C2AC /* Build configuration list for PBXNativeTarget "Hack4rHaberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9921B38C27BFBE2A0067C2AC /* Debug */,
+				9921B38D27BFBE2A0067C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9921B38E27BFBE2A0067C2AC /* Build configuration list for PBXNativeTarget "Hack4rHaberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9921B38F27BFBE2A0067C2AC /* Debug */,
+				9921B39027BFBE2A0067C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9921B35C27BFBE280067C2AC /* Project object */;
+}
